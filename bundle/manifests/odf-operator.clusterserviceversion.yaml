@@ -385,7 +385,7 @@ spec:
                 envFrom:
                 - configMapRef:
                     name: odf-operator-manager-config
-                image: quay.io/ocs-dev/odf-operator:latest
+                image: quay.io/ypadia/odf-operator:test
                 livenessProbe:
                   httpGet:
                     path: /healthz

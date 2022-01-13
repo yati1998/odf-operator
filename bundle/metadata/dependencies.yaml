@@ -3,3 +3,7 @@ dependencies:
   value:
     packageName: ocs-operator
     version: ">=4.8.0 <4.9.0 || 4.9.0"
+- type: olm.package
+  value:
+    packageName: csi-addons
+    version: latest
